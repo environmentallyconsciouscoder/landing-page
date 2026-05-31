@@ -314,7 +314,7 @@ const GAINS = [
   { icon: "📊", title: "Audit-ready records", body: "Every job produces structured, timestamped evidence — ready for PAS 2035 audits." },
   { icon: "🤝", title: "Happier clients", body: "Professional, consistent reports delivered faster build trust with housing associations and councils." },
   { icon: "📈", title: "Scale without hiring", body: "Take on more projects without growing your admin team. The software scales with you." },
-  { icon: "🔒", title: "Your data, your cloud", body: "Your data is stored securely in the cloud and never sold or shared with third parties. RetroSet is fully GDPR compliant." },
+  { icon: "🔒", title: "Your data, your cloud", body: "Your data is stored securely in the cloud and never sold or shared with third parties." },
 ];
 
 function WhatYouGainSection() {
@@ -359,8 +359,8 @@ function DemoForm() {
     return (
       <div className="flex flex-col items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-10 text-center">
         <span className="text-5xl">🎉</span>
-        <h3 className="text-xl font-bold text-white">We'll be in touch within 24 hours</h3>
-        <p className="text-sm text-gray-400">Check your inbox — we'll send a calendar link to book your personalised demo.</p>
+        <h3 className="text-xl font-bold text-white">We&apos;ll be in touch within 24 hours</h3>
+        <p className="text-sm text-gray-400">Check your inbox — we&apos;ll send a calendar link to book your personalised demo.</p>
       </div>
     );
   }
@@ -385,7 +385,7 @@ function DemoForm() {
         <input required name="company" value={form.company} onChange={handleChange} placeholder="Retrofit Co. Ltd" className={inputClass} />
       </div>
       <div>
-        <label className="mb-1 block text-xs font-medium text-gray-400">Anything specific you'd like to see?</label>
+        <label className="mb-1 block text-xs font-medium text-gray-400">Anything specific you&apos;d like to see?</label>
         <textarea
           name="message"
           value={form.message}
@@ -426,7 +426,7 @@ function CtaSection() {
               <GradientText>your projects</GradientText>
             </h2>
             <p className="text-gray-300">
-              Book a 30-minute demo and we'll show you exactly how RetroSet handles your current workflow.
+              Book a 30-minute demo and we&apos;ll show you exactly how RetroSet handles your current workflow.
             </p>
 
             <ul className="space-y-3">

@@ -174,12 +174,12 @@ function TestimonialsSection() {
         <div>
           <SectionLabel>What our customers say</SectionLabel>
           <h2 className="mb-12 text-center text-3xl font-extrabold text-white md:text-4xl">
-            Teams that switched don't go back
+            Teams that switched don&apos;t go back
           </h2>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             {TESTIMONIALS.map((t) => (
               <div key={t.name} className="flex flex-col gap-4 rounded-2xl border border-white/10 bg-white/5 p-6">
-                <p className="text-sm italic leading-relaxed text-gray-300">"{t.quote}"</p>
+                <p className="text-sm italic leading-relaxed text-gray-300">&ldquo;{t.quote}&rdquo;</p>
                 <div className="mt-auto flex items-center gap-3">
                   <div
                     className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full text-sm font-bold text-white"
@@ -237,7 +237,7 @@ function TrialSection() {
           Try it on your own projects. Free for 14 days.
         </h2>
         <p className="mx-auto mb-12 max-w-2xl text-center text-gray-300">
-          Full access to every workflow from day one. No credit card. No hand-holding required. If it doesn't save you time in the first week, cancel with one click.
+          Full access to every workflow from day one. No credit card. No hand-holding required. If it doesn&apos;t save you time in the first week, cancel with one click.
         </p>
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
@@ -445,7 +445,7 @@ function IntegrationsSection() {
         </div>
 
         <p className="mt-8 text-center text-xs text-gray-600">
-          Don't see your tool? We support any REST API and Zapier — ask us during your trial.
+          Don&apos;t see your tool? We support any REST API and Zapier — ask us during your trial.
         </p>
       </div>
     </section>
@@ -604,8 +604,8 @@ function DemoForm() {
     return (
       <div className="flex flex-col items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-10 text-center">
         <span className="text-5xl">🎉</span>
-        <h3 className="text-xl font-bold text-white">You're on the list</h3>
-        <p className="text-sm text-gray-400">We'll send a calendar invite within 24 hours. Check your inbox.</p>
+        <h3 className="text-xl font-bold text-white">You&apos;re on the list</h3>
+        <p className="text-sm text-gray-400">We&apos;ll send a calendar invite within 24 hours. Check your inbox.</p>
       </div>
     );
   }
@@ -699,8 +699,8 @@ function FinalCtaSection() {
             </div>
 
             <div className="rounded-xl border border-white/10 bg-white/5 p-5">
-              <p className="mb-1 text-sm font-semibold text-white">"The defect validator alone paid for the subscription in the first week."</p>
-              <p className="text-xs text-gray-500">— James O'Brien, Lead Assessor, GreenMark Surveys Ltd</p>
+              <p className="mb-1 text-sm font-semibold text-white">&ldquo;The defect validator alone paid for the subscription in the first week.&rdquo;</p>
+              <p className="text-xs text-gray-500">— James O&apos;Brien, Lead Assessor, GreenMark Surveys Ltd</p>
             </div>
           </div>
 
