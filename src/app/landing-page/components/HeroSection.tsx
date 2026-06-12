@@ -18,7 +18,7 @@ export function HeroSection() {
 
         <h1 className="text-4xl font-extrabold leading-tight text-white md:text-6xl lg:text-7xl">
           Cut retrofit admin time{" "}
-          <GradientText>by up to 85%</GradientText>
+          <GradientText>without the manual grind</GradientText>
         </h1>
 
         <p className="mx-auto max-w-2xl text-lg text-gray-300 md:text-xl">
@@ -44,18 +44,15 @@ export function HeroSection() {
 
       <div className="relative z-10 mt-16 grid w-full max-w-3xl grid-cols-3 divide-x divide-white/10 rounded-2xl border border-white/10 bg-white/5 py-6 backdrop-blur-sm">
         {[
-          { value: "85%", label: "Less admin time" },
-          { value: "6×", label: "Faster per job" },
-          { value: "£0", label: "No extra headcount needed" },
+          { value: "Less", label: "Admin time per job" },
+          { value: "Faster", label: "Turnaround per job" },
+          { value: "Leaner", label: "No extra headcount needed" },
         ].map((s) => (
           <div key={s.label} className="flex flex-col items-center gap-1 px-4">
             <span className="text-3xl font-black" style={{ color: BRAND }}>{s.value}</span>
             <span className="text-xs text-gray-400">{s.label}</span>
           </div>
         ))}
-      </div>
-      <div className="text-center mt-3 text-sm text-gray-500">
-        Estimates based on internal workflow analysis. Results may vary.
       </div>
     </section>
   );
